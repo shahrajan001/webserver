@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <link rel = "stylesheet" href = "./css/styles.css">
+    <link rel = "icon" href = "./rajan.jpg" >
+    
+    <title> Index</title>
+<head>
+</head>
+
+<body>
+    <div class="mainContent">
+    {{>header}} 
+    <h1>Contents from index.hb</h1>
+    <h2>Name: {{name}}</h2>
+    <h2>Roll no : {{rollno}}</h2>
+    {{!-- <img src = "./rajan1.png"  class="portrait"></img> --}}
+    <form> 
+        <input placeholder="location">
+        <button>Search</button>
+    </form>
+
+    </div>
+    {{>footer}}
+    <script src = "./js/app.js"> </script>
+</body>
+    
+</html>
